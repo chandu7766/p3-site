@@ -13,7 +13,7 @@ function maxi(str1,str2)
    return Math.max(str1.length, str2.length)
 }
 
-/* function clickCounter() {
+ function clickCounter() {
     if(typeof(Storage) !== "undefined") {
       if (localStorage.clickcount) {
         localStorage.clickcount = Number(localStorage.clickcount)+1;
@@ -24,4 +24,4 @@ function maxi(str1,str2)
     } else {
       document.getElementById("click").innerHTML = "Sorry, your browser does not support web storage...";
     }
-  }*/
+  }
